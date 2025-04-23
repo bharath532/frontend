@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="menu">
+        <li><a href="#">CLICK ME</a></li>
+        <li><a href="#">CLICK ME</a></li>
+        <li><a href="#">CLICK ME</a></li>
+        <li><a href="#">CLICK ME</a></li>
+        <li><a href="#">CLICK ME</a></li>
+        <li><a href="#">CLICK ME</a></li>
+    </div>
+
+<div>
+    <menu>
+        <a href="#">click me</a>
+        <a href="#">click me</a>
+        <a href="#">click me</a>
+        <a href="#">click me</a>
+    </menu>
+</div>
+
+
+<div class="home">
+    <h1>Welcome...</h1>
+
+    <div class="child">
+        <li>One</li>
+        <li>One</li>
+        <li>One</li>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+<style>
+
+    .child{
+        display: none;
+    }
+    
+    .home:hover .child{
+        display: block;
+    }
+
+
+    a{
+        text-decoration: solid;
+       
+        padding: 5px;
+    }
+    
+    li{
+        list-style-type: none;
+        padding: 10px;
+        /* border: 5px solid blue; */
+
+    }
+
+    a:hover{
+        border-top: 5px solid red;
+        /* transition-delay: 0.3s; */
+    }
+    .menu{
+        display: flex;
+        gap: 2px;
+    }
+    .menu:hover{
+        border-bottom: 5px solid red;
+    }
+
+</style>
