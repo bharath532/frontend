@@ -9,35 +9,93 @@
     
     <div class="home">
         <div class="child"></div>
+        <!-- <img src="../assets/car1.jpg" alt=""> -->
     </div>
 
 </body>
 </html>
 
 <style>
+    img{
+        width: 220px;
+        height: 100px;
+        border-radius: 20px;
+    }
 
     .home{
-        background-color: lightgrey;
-        display: flex;
-        justify-content: center;
-        height: 100vh;
-        align-items: center;
+        background-color:lightgrey;
+        display:flex;
+        justify-content:center;
+        height:100vh;
+        align-items:center;
 
     }
     .child{
         width: 100px;
         height: 100px;
+        border-radius: 50px;
         border: 2px solid red;
         background-color: yellow;
-        transition: 2s;
+           transition: 2s;
+animation-name: Surya;
+animation-delay: 1s;
+animation-duration: 9s;
+animation-direction: normal;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 3;
+position: relative;
+
 
     }
-    .child:hover{
-        border-radius: 50px;
-        /* transform: translatez(150px); */
-        /* transform: skewz(45deg); */
-/* transform: scalez(3); */
-transform: rotatez(0deg);
+
+
+@keyframes Surya {
+      /* from{
+        top: 0;
+        left: 0;
     }
+    to{
+        top: 100px;
+        left: 100px;
+    } */
+
+     0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0px;
+        left: 300px;
+
+    }
+    
+    50%{
+        top: 100px;
+        left: 300px;
+    }
+    75%{
+        top: 100px;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left:0px;
+    }
+} 
+
+
+
+
+    .child:hover{
+        /* border-radius: 50px; */
+        /* transform: translatey(50px); */
+        /* transform: skewy(180deg); */
+/* transform: scaley(2); */
+/* transform: rotatey(180deg); */
+    }
+
+
+
+
 
 </style>
