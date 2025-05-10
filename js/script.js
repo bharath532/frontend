@@ -121,26 +121,26 @@
 
 
 
-let a =;
+// let a =2;
 
-switch(a){
-    case 0:
-        console.log("Zero..");
-        break;
+// switch(a){
+//     case 0:
+//         console.log("Zero..");
+//         break;
 
-    case 1:
-        console.log("One");
-        break;
+//     case 1:
+//         console.log("One");
+//         break;
 
-    case 2:
-        console.log("Two..");
-        break;
+//     case 2:
+//         console.log("Two..");
+//         break;
 
-    default :
-    console.log("Error...");
-    break;
+//     default :
+//     console.log("Error...");
+//     break;
     
-}
+// }
 
 
 // let arr = [1,2,3,4,'s',"Bharath"]
@@ -151,7 +151,7 @@ switch(a){
 
 // console.log(arr[0]);
 
-// arr.push(12);
+//  arr.push(11);
 // arr.push(13)
 
 // arr.pop()
@@ -175,6 +175,21 @@ switch(a){
 //     1,2,3
 // ]
 
+
+// console.log(Arr.copyWithin(1,0));
+// // Arr.fill('*')
+// Arr.join('*')
+// console.log(Arr.join('*'));
+// console.log(Arr.());
+
+// const t =[
+//     [1,2,3],[3,4,5],[6,7,8]
+// ]
+// console.log(t.flat());
+
+
+
+
 // Arr=90
 
 // Arr.push("surya")
@@ -182,9 +197,12 @@ switch(a){
 // console.log(Arr);
 
 
-// const Ar = [
-//     [1,2,3,4],[5,6,7,[8,9,11,[12,13,14,[19.18,17]]]]
+//  const Array=[
+//      [1,2,3,4],[5,6,7,[8,9,11,[12,13,14,[19,18,17]]]]
 // ]
+// console.log(Array[1][3][3][0]);
+
+
 
 // let obj ={
 //     Name :"Suryaraj",
@@ -205,25 +223,25 @@ switch(a){
 //     {Name:"Suryraj3"},
 //     {Name:"Suryraj4"},
 // ]
-// console.log(ArrObj[2].Name);
+// console.log(ArrObj.());
 
 
-// for(let i=0;i<10;i++){
+// for(let i=1;i<10;i++){
 //     console.log(i);
 // }
 
-// let a =10
+// let a =10;
 // do{
 //     a++
 //     console.log(a);    
-// }while(a<20)
+// }while(a<15)
 
-    // while(a<30){
-    //     a++
-    //     console.log(a);
-    //     if(a==25){
-    //         break
-    //     }
+    // while(a){
+        // a++
+        // console.log(a);
+        // if(a==25){
+            // break
+        // }
         
     // }
 

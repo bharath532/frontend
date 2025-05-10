@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="sekar">
+    <h1 id="one">Arun</h1><h1 id="two">Sister</h1>
+    </div>
+
+
+</body>
+</html>
+
+<script>
+    let parent = document.getElementById('sekar')
+    let one = document.getElementById('one')
+    let two = document.getElementById('two')
+
+console.log(parent.children.length);
+
+console.log(one.parentNode.nodeName);
+console.log(one.nextElementSibling);
+console.log(two.previousSibling);
+
+
+
+let date = new Date()
+
+date.setFullYear(1996)
+
+console.log(date);
+console.log(date.getDate());
+console.log(date.getDay());
+console.log(date.getHours());
+console.log(date.getMinutes());
+console.log(date.getFullYear());
+
+
+let a =10
+
+console.log(a.toExponential());
+
+console.log(a.toFixed(4));
+console.log(a.toLocaleString());
+console.log(a.toString());
+
+console.log(a.toPrecision(4));
+
+
+
+
+
+
+
+
+
+
+
+</script>
